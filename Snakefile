@@ -175,3 +175,6 @@ if "localrules" in config:
 if "custom_rules" in config:
     for rule_file in config["custom_rules"]:
         include: rule_file
+
+# run ncov workflow as a standalone directory
+workdir: config['workdir']
