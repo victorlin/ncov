@@ -14,7 +14,7 @@ on:
 jobs:
   sync:
     name: rtd redirects
-    uses: nextstrain/.github/.github/workflows/sync-rtd-redirects.yaml@master
+    uses: nextstrain/.github/.github/workflows/sync-rtd-redirects.yaml@victorlin/sync-rtd-redirects/conditional-sync
     with:
       project: nextstrain-ncov
       file: docs/redirects.yaml
